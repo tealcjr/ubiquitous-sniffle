@@ -1,9 +1,10 @@
 import time 
 import datetime
+import subprocess
 
 try:
   lolo = input("time to wait\n")
   time.sleep(float(lolo))
-  print("delay works!!!")
+  subprocess.call(["mkdir", "toto"])
 except:
   pass
