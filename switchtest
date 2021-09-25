@@ -1,0 +1,9 @@
+import time 
+import datetime
+
+try:
+  lolo = input("time to wait\n")
+  time.sleep(float(lolo))
+  print("delay works!!!")
+except:
+  pass
